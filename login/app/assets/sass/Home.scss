@@ -1,0 +1,25 @@
+@import 'global';
+
+.main {
+    background-color: $background-color;
+}
+
+.actionBar {
+    background-color: $primary-color;
+
+    Label {
+        color: #fff;
+        font-size: $title-size;
+    }
+}
+
+.title {
+    font-size: $title-size;
+    color: $text-color;
+    margin: 20;
+}
+
+.img {
+    height: 100;
+    padding: 10;
+}

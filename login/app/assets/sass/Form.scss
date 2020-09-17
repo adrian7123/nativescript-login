@@ -1,0 +1,50 @@
+@import 'global';
+
+Button {
+    margin: 0;
+    margin-top: 35;
+    border-radius: 10;
+
+    width: 100%;
+    background-color: $primary-color;
+    color: whitesmoke;
+    
+    font-size: 18;
+    font-weight: bold;
+
+    &:active {
+        color: $primary-color;
+        background-color: whitesmoke;
+    }
+}
+
+Label {
+    font-size: 30px;
+}
+
+FlexboxLayout {
+    margin-top: 20;
+    Label {
+        font-size: $text-size;
+        color: $primary-color;
+        text-decoration: underline;
+        
+        &:active {
+            color: #6FEDB7;
+        }
+    }
+
+}
+
+TextField {
+    width: 100%;
+    min-height: 55;
+    font-size: $text-size;
+    placeholder-color: $text-color;
+    color: $text-color;
+    border-bottom-color: $primary-color;
+}
+
+StackLayout {
+    padding: 0 50;
+}
